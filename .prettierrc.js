@@ -2,12 +2,12 @@
 
 module.exports = {
   singleQuote: true,
-  "overrides": [
+  overrides: [
     {
-      "files": "*.hbs",
-      "options": {
-        "singleQuote": false
-      }
-    }
-  ]
+      files: '*.hbs',
+      options: {
+        singleQuote: false,
+      },
+    },
+  ],
 };

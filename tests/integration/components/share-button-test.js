@@ -13,7 +13,6 @@ class MockRouterService extends Service {
 module('Integration | Component | share-button', function (hooks) {
   setupRenderingTest(hooks);
 
-
   hooks.beforeEach(function () {
     this.owner.register('service:router', MockRouterService);
 
@@ -86,6 +85,5 @@ module('Integration | Component | share-button', function (hooks) {
       .hasAttribute('target', '_blank')
       .hasAttribute('rel', 'external nofollow noopener noreferrer')
       .hasAttribute('href', /^https:\/\/twitter\.com\/intent\/tweet/);
-
   });
 });
