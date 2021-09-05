@@ -3,6 +3,7 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+App is hosted at [URL](https://gracious-tereshkova-12a236.netlify.app/)
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
