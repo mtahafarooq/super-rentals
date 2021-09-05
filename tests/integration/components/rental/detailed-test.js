@@ -50,6 +50,5 @@ module('Integration | Component | rental/detailed', function (hooks) {
     assert.dom('article .detail.bedrooms').containsText('15');
     assert.dom('article .image').exists();
     assert.dom('article .map').exists();
-
   });
 });
